@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOWTIME - Streaming Film & Serial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">SHOWTIME</div>
+        <nav>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Film</a></li>
+                <li><a href="#">Serial</a></li>
+                <li><a href="login.html">Masuk</a></li>
+                <li><a href="register.html">Daftar</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h2>Nikmati Film & Serial Favoritmu</h2>
+        <p>Streaming kapan saja, di mana saja.</p>
+        <a href="register.html" class="btn">Mulai Sekarang</a>
+    </section>
+
+    <section class="movie-list">
+        <h2>Film Populer</h2>
+        <div class="movies">
+            <div class="movie-item">
+                <a href="detail.html">
+                    <img src="placeholder.jpg" alt="Film 1">
+                    <p>Judul Film</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="detail.html">
+                    <img src="placeholder.jpg" alt="Film 2">
+                    <p>Judul Film</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="carousel">
+        <h2>Trending Sekarang</h2>
+        <div class="carousel-container">
+            <div class="carousel-item"><img src="placeholder.jpg" alt="Trending 1"></div>
+            <div class="carousel-item"><img src="placeholder.jpg" alt="Trending 2"></div>
+            <div class="carousel-item"><img src="placeholder.jpg" alt="Trending 3"></div>
+        </div>
+    </section>
+    
+    <section class="detail" id="detail-page" style="display: none;">
+        <h2>Detail Film</h2>
+        <img src="placeholder.jpg" alt="Detail Film">
+        <p>Deskripsi film...</p>
+        <a href="player.html" class="btn">Tonton Sekarang</a>
+    </section>
+    
+    <section class="player" id="player-page" style="display: none;">
+        <h2>Now Playing</h2>
+        <video controls>
+            <source src="sample.mp4" type="video/mp4">
+            Browser Anda tidak mendukung pemutar video.
+        </video>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
